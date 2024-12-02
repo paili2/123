@@ -1,0 +1,17 @@
+package org.koreait.dandyPo.global.exceptions.scripts;
+
+import org.koreait.dandyPo.global.exceptions.CommonException;
+import org.springframework.http.HttpStatus;
+
+/**
+ * 예외 발생하면 자바스크립트의 alert('메세지'); 형태로 실행
+ */
+public class AlertException extends CommonException {
+    public AlertException(String message) {
+        this(message, null);
+    }
+
+    public AlertException(String message, HttpStatus status) {
+        super(message, status);
+    }
+}
