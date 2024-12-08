@@ -89,23 +89,23 @@ header .main-menu > li:nth-of-type(5) a:hover {
 }
 
 header .main-menu > li:nth-of-type(1) a:hover i {
-    background: url("../images/icon_news_w.png") no-repeat center center;
+    background: url("/imgs/icon_news.png") no-repeat center center;
 }
 
 header .main-menu > li:nth-of-type(2) a:hover i {
-    background: url("../images/icon_game_w.png") no-repeat center center;
+    background: url("/imgs/icon_game.png") no-repeat center center;
 }
 
 header .main-menu > li:nth-of-type(3) a:hover i {
-    background: url("../images/icon_card_w.png") no-repeat center center;
+    background: url("/imgs/icon_card.png") no-repeat center center;
 }
 
 header .main-menu > li:nth-of-type(4) a:hover i {
-    background: url("../images/icon_ani_w.png") no-repeat center center;
+    background: url("/imgs/icon_ani.png") no-repeat center center;
 }
 
 header .main-menu > li:nth-of-type(5) a:hover i {
-    background: url("../images/icon_ball_w.png") no-repeat center center;
+    background: url("/imgs/icon_ball.png") no-repeat center center;
 }
 
 header > .left {
@@ -136,35 +136,35 @@ header > .right .icon {
 }
 
 header .icon.news {
-    background:url("../images/icon_news.png") no-repeat center center;
+    background:url("/imgs/icon_news.png") no-repeat center center;
 }
 
 header .icon.game {
-    background:url("../images/icon_game.png") no-repeat center center;
+    background:url("/imgs/icon_game.png") no-repeat center center;
 }
 
 header .icon.card-game {
-    background:url("../images/icon_card.png") no-repeat center center;
+    background:url("/imgs/icon_card.png") no-repeat center center;
 }
 
 header .icon.animation {
-    background:url("../images/icon_ani.png") no-repeat center center;
+    background:url("/imgs/icon_ani.png") no-repeat center center;
 }
 
 header .icon.products {
-    background:url("../images/icon_ball.png") no-repeat center center;
+    background:url("/imgs/icon_ball.png") no-repeat center center;
 }
 
 header .icon.catalog {
-    background:url("../images/icon_ball_c.png") no-repeat center center;
+    background:url("/imgs/icon_ball_c.png") no-repeat center center;
 }
 
 header .icon.login {
-    background:url("../images/icon_login.png") no-repeat center center;
+    background:url("/imgs/icon_login.png") no-repeat center center;
 }
 
 header .icon.search {
-    background:url("../images/icon_search.png") no-repeat center center;
+    background:url("/imgs/icon_search.png") no-repeat center center;
 }
 
 header > .right {
@@ -193,7 +193,7 @@ header .move-to-store {
     display: block;
     width: 190px;
     height: 120px;
-    background: #FFDE00 url("../images/a-store.png") no-repeat center center;
+    background: #FFDE00 url("/imgs/a-store.png") no-repeat center center;
     background-size: 100%;
     padding: 0 15px 0 7px;
     margin-left: 45px;

@@ -3,11 +3,11 @@
 <header th:fragment="common">
     <div class="left">
         <a th:href="@{/}" class="logo">
-            <img th:src="@{/front/images/main_logo.png}">
+            <img th:src="@{/imgs/main_logo.png}">
         </a>
         <ul class="main-menu">
             <li>
-                <a href="#">
+                <a href="/news">
                     <div>
                         <i class="icon news"></i>
                         <th:block th:text="#{소식}"></th:block>
@@ -15,7 +15,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="/game">
                     <div>
                         <i class="icon game"></i>
                         <th:block th:text="#{게임}"></th:block>
@@ -23,7 +23,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="/card">
                     <div>
                         <i class="icon card-game"></i>
                         <th:block th:text="#{카드_게임}"></th:block>
@@ -31,7 +31,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="/animation">
                     <div>
                         <i class="icon animation"></i>
                         <th:block th:text="#{애니메이션}"></th:block>
@@ -39,7 +39,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="/products">
                     <div>
                         <i class="icon products"></i>
                         <th:block th:text="#{상품}"></th:block>
